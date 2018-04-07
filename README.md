@@ -15,4 +15,4 @@
 - ml/
   - [やさしく学ぶ 機械学習を理解するための数学のきほん アヤノ＆ミオと一緒に学ぶ 機械学習の理論と数学、実装まで](https://book.mynavi.jp/ec/products/detail/id=77270)
 - typescript/
-  - TypeScript 公式読んでまとめたり、ハンズオンっぽいのつくったり
+  - TypeScript 公式読んでまとめたり、ハンズオンっぽいのつくったり
