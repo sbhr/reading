@@ -14,3 +14,5 @@
   - [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.shoeisha.co.jp/book/detail/9784798144627)
 - ml/
   - [やさしく学ぶ 機械学習を理解するための数学のきほん アヤノ＆ミオと一緒に学ぶ 機械学習の理論と数学、実装まで](https://book.mynavi.jp/ec/products/detail/id=77270)
+- typescript/
+  - TypeScript 公式読んでまとめたり、ハンズオンっぽいのつくったり
