@@ -1,0 +1,8 @@
+function greeter(name: string): string {
+    return `Hello, I'm ${name}`;
+}
+
+// const name = "Ironman"
+const name = [0, 1, 2];
+
+console.log(greeter(name));

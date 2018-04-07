@@ -1,0 +1,7 @@
+function greeter(name) {
+    return `Hello, I'm ${name}`;
+}
+
+const name = "Ironman";
+
+console.log(greeter(name));

@@ -1,0 +1,15 @@
+interface Hero {
+    name: string;
+    trueName:string;
+}
+
+function greeter(hero: Hero) {
+    return `Hello, I'm ${hero.trueName}, a.k.a ${hero.name}`;
+}
+
+const hero = {
+    name: "Ironman",
+    trueName: "Tony Stark"
+};
+
+console.log(greeter(hero));
