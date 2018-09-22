@@ -1,4 +1,6 @@
+# condig: utf-8
 import numpy as np
+
 
 class Sigmoid:
     def __init__(self):
@@ -6,6 +8,7 @@ class Sigmoid:
 
     def forward(self, x):
         return 1 / (1 + np.exp(-x))
+
 
 class Affine:
     def __init__(self, W, b):
@@ -15,6 +18,7 @@ class Affine:
         W, b = self.params
         out = np.dot(x, W) + b
         return out
+
 
 class TwoLayerNet:
     def __init__(self, input_size, hidden_size, output_size):
@@ -42,6 +46,7 @@ class TwoLayerNet:
         for layer in self.layers:
             x = layer.forward(x)
         return x
+
 
 x = np.random.randn(10, 2)
 print(x)
